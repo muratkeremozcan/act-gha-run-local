@@ -37,7 +37,7 @@ act -v
 
 ## What Happens Behind the Scenes
 
-1. Act reads your workflow file (.github/workflows/main.yml)
+1. Act reads your workflow file
 2. Pulls necessary Docker images to simulate GitHub's runner environment
 3. Creates isolated containers to run each job
 4. Executes the steps defined in your workflow
